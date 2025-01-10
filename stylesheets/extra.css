@@ -9,4 +9,31 @@
     padding: 1rem;
     background-color: var(--md-code-bg-color);
     border-radius: 4px;
+}
+
+.md-typeset .timeline ul {
+    border-left: 2px solid var(--md-primary-fg-color);
+    padding-left: 1.5rem;
+    margin-left: 1rem;
+}
+
+.md-typeset .timeline li {
+    list-style: none;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+
+.md-typeset .timeline li:before {
+    content: '';
+    position: absolute;
+    left: -2rem;
+    top: 0.25rem;
+    width: 0.8rem;
+    height: 0.8rem;
+    background: var(--md-primary-fg-color);
+    border-radius: 50%;
+}
+
+.md-typeset .timeline strong {
+    color: var(--md-primary-fg-color);
 } 
