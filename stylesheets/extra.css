@@ -36,4 +36,16 @@
 
 .md-typeset .timeline strong {
     color: var(--md-primary-fg-color);
+}
+
+.social-links {
+    display: flex;
+    gap: 1.5rem;
+    margin: 1rem 0;
+}
+
+.social-links div {
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
 } 
