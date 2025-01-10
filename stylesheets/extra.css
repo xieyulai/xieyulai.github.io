@@ -40,12 +40,18 @@
 
 .social-links {
     display: flex;
+    flex-wrap: wrap;
     gap: 1.5rem;
-    margin: 1rem 0;
+    margin-top: -0.5rem;
 }
 
 .social-links div {
-    display: flex;
+    display: inline-flex;
     align-items: center;
     gap: 0.3rem;
+}
+
+.social-links div svg {
+    width: 1.2em;
+    height: 1.2em;
 } 
