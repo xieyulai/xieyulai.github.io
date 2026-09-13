@@ -1,13 +1,8 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="YX">
-  <defs>
-    <linearGradient id="g" x1="8" y1="4" x2="56" y2="60" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#2b7de9"/>
-      <stop offset="1" stop-color="#0b57d0"/>
-    </linearGradient>
-  </defs>
-  <rect width="64" height="64" rx="15" fill="url(#g)"/>
+  <rect width="64" height="64" rx="14" fill="#ffffff"/>
+  <rect x="1.5" y="1.5" width="61" height="61" rx="12.5" fill="none" stroke="#e6e6e6" stroke-width="1.5"/>
   <!-- Y -->
-  <path fill="#fff" d="M11 17h7.2l5.1 11.4L28.4 17H35.6L26.8 35.4V47h-6.6V35.4z"/>
+  <path fill="#1a1a1a" d="M11 17h7.2l5.1 11.4L28.4 17H35.6L26.8 35.4V47h-6.6V35.4z"/>
   <!-- X -->
-  <path fill="#fff" d="M37.2 17h7.1l4.2 7.6L52.7 17H60l-7.4 15L60 47h-7.3l-4.2-7.6L44.3 47h-7.1l7.4-15z"/>
+  <path fill="#1a1a1a" d="M37.2 17h7.1l4.2 7.6L52.7 17H60l-7.4 15L60 47h-7.3l-4.2-7.6L44.3 47h-7.1l7.4-15z"/>
 </svg>
